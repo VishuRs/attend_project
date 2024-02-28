@@ -1,16 +1,20 @@
-<?php
+<?php  
 include 'config.php';
 
-$st_name = $_POST['std_name'];
-$st_rollno = $_POST['std_rollno'];
-$st_subject = $_POST['std_subject'];
-$st_add  = $_POST['std_add'];
+ $st_name = $_POST['st-name'];
+ $st_age = $_POST['st-age'];
+ $st_email = $_POST['st-email'];
+ $st_course  = $_POST['course-name'];
+ $st_subject  = $_POST['course-subject-name'];
+ $st_address  = $_POST['st-address'];
 
-$sql = "INSERT INTO `student`(`std_name`, `std_rollno`,'std_subject','std_add') VALUES ('$st_name','$st_rollno','$st_subject','$st_add')";
-$run = mysqli_query($con, $sql);
+$sql = "INSERT INTO `student`(`std_name`, `std_age`, `std_email`, `std_course`, `std_subject`, `std_address`) VALUES ('$st_name','$st_age','$st_email','$st_course','$st_subject','$st_address')";
+$run = mysqli_query($con,$sql);
 
 if ($run) {
     echo "your data added successfully ....!";
-} else {
+}else {
     echo "your data not added successfully ....!";
 }
+
+?>
