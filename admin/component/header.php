@@ -18,7 +18,7 @@
           <a class="nav-link text-white fw-bold" href="setting.php">R-setting</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fw-bold" href="./admin-login.php">login</a>
+          <a class="nav-link text-white fw-bold" href="controls/admin-logout.php">logout</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white fw-bold" href="./Teacher.php">Teacher</a>
