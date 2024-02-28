@@ -52,7 +52,7 @@
            </div>
 
 
-              <!-- show student details -->
+              <!-- show student  -->
       <div class="container mt-5 ">
         <div class="text-center mb-5">
             <h2>subject Details</h2>
