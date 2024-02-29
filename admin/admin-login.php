@@ -13,7 +13,7 @@
   <div class="container">
     <div class="wrapper">
       <div class="title"><span>Admin login</span></div>
-      <form id="loginForm">
+      <form id="loginForm" autocomplete="off">
         <div class="row">
           <i class="fas fa-user"></i>
           <input type="text" placeholder="Email or Phone" name="username">
@@ -25,6 +25,8 @@
         <div class="row button">
           <input type="submit">
         </div>
+        <a href="../" style="text-decoration: none; color: blue">Back to main</a>
+
       </form>
     </div>
   </div>
